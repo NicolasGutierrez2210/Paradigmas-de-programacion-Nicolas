@@ -38,5 +38,5 @@ Dado que Valgrind no se pudo utilizar por diferentes circunstancias, la memoria 
 ## Hallazgos y comparaciones
 
 - La versión **iterativa** es más rápida y consume menos memoria que la **recursiva** en ambos lenguajes.
-- **Python** es más lento y usa más memoria que **C**, pero permite medir y graficar los resultados fácilmente.(esto es mas evidente cuando n>100)
+- **Python** es más lento y usa más memoria que **C**, pero permite medir y graficar los resultados fácilmente.(esto es mas evidente cuando n>100 en temas de tiempo)
 - En el recursivo el código más claro y directo, pero con una sobrecarga en el tiempo.
