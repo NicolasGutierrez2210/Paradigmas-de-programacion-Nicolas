@@ -26,8 +26,8 @@ C:
 
 *Tiempo: con clock() del archivo <time.h>
 
-*Memoria: se utiliza sizeof para estimar la memoria y valgrind (usado en WSL) para un analisis detallado
-
+*Memoria: se utiliza sizeof para estimar la memoria  analisis PARCIAL
+Dado que Valgrind no se pudo utilizar por diferentes circustancias la memoria en C se estimó usando sizeof() y una aproximación por llamada recursiva (“stack frame”). Esta aproximación es suficiente o parcial para comparar rendimiento entre métodos recursivos e iterativos.”
 
 --Hallazgos y comparaciones
 La version iterativa es mas rapida y consume menos memoria que la recursiva en ambos lenguajes.
