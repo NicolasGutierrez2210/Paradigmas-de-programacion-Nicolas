@@ -1,37 +1,30 @@
-Comparacion de funciones recursivas e iterativas para el calculo del factorial
+📊 Comparación de funciones recursivas e iterativas para el cálculo del factorial
+🧾 Propósito de la tarea
+El objetivo es comparar la eficiencia entre funciones recursivas e iterativas para calcular el factorial en dos lenguajes de programación: Python y C. Se mide el tiempo de ejecución y el uso de memoria para analizar el rendimiento en cada enfoque.
 
---Proposito de la tarea
+⚙️ Implementación
+Python: Se creó un programa que calcula el factorial usando ambos enfoques (iterativo y recursivo).
 
+C: Se creó un archivo con las mismas versiones de funciones.
 
-El objetivo es comparar la eficiencia entre funciones recursivas e iterativas para calcular el factorial en dos lenguajes de programacion: Python y C. Se mide el tiempo de ejecucion y el uso de memoria para analizar el rendimiento en cada enfoque.
+Todos los archivos permiten modificar fácilmente el valor de entrada n cambiando una constante en el código.
 
+⏱️ Métodos para medir tiempo y memoria
+🐍 Python
+Tiempo: usando el módulo time.
 
---Implementacion
--Python: se creo un programa que calcula el factorial usando ambos enfoques.
+Memoria: usando el decorador @profile del paquete memory_profiler.
 
--C: se creo un archivo con las mismas versiones de funciones.
+💻 C
+Tiempo: con clock() del archivo <time.h>.
 
-Todos los archivos permiten modificar facilmente el valor de entrada n cambiando una constante en el codigo.
+Memoria: se utiliza sizeof() para estimar la memoria.
 
+🔍 Análisis parcial
+Dado que Valgrind no se pudo utilizar, la memoria en C se estimó usando sizeof() y una aproximación por llamada recursiva ("stack frame"). Esta aproximación es suficiente o parcial para comparar el rendimiento entre métodos recursivos e iterativos.
 
---Metodos para medir tiempo y memoria:
+📈 Hallazgos y comparaciones
+La versión iterativa es más rápida y consume menos memoria que la recursiva en ambos lenguajes.
 
-Python:
-
-*Tiempo usando el modulo time
-
-*Memoria: usando el decorador @profile del paquete memory_profiler
-
-C:
-
-*Tiempo: con clock() del archivo <time.h>
-
-*Memoria: se utiliza sizeof para estimar la memoria  analisis PARCIAL
-Dado que Valgrind no se pudo utilizar por diferentes circustancias la memoria en C se estimó usando sizeof() y una aproximación por llamada recursiva (“stack frame”). Esta aproximación es suficiente o parcial para comparar rendimiento entre métodos recursivos e iterativos.”
-
---Hallazgos y comparaciones
-La version iterativa es mas rapida y consume menos memoria que la recursiva en ambos lenguajes.
-
-Python es mas lento y usa mas memoria que C, pero permite medir y graficar los resultados facilmente.
-<img width="833" height="547" alt="image" src="https://github.com/user-attachments/assets/b11bf76c-43ab-4168-9594-9a7224264dce" />
+Python es más lento y usa más memoria que C, pero permite medir y graficar los resultados fácilmente.
 
