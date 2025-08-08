@@ -1,6 +1,8 @@
 Comparacion de funciones recursivas e iterativas para el calculo del factorial
 
 --Proposito de la tarea
+
+
 El objetivo es comparar la eficiencia entre funciones recursivas e iterativas para calcular el factorial en dos lenguajes de programacion: Python y C. Se mide el tiempo de ejecucion y el uso de memoria para analizar el rendimiento en cada enfoque.
 
 
