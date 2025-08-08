@@ -30,5 +30,5 @@ C:
 --Hallazgos y comparaciones
 La version iterativa es mas rapida y consume menos memoria que la recursiva en ambos lenguajes.
 
-Python es mas lento y usa mas memoria que C, pero permite medir y graficar los resultados mas facilmente.
+Python es mas lento y usa mas memoria que C, pero permite medir y graficar los resultados facilmente.
 
