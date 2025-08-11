@@ -1,3 +1,22 @@
+# Como ejecutar el codigo de phyton
+
+- Este codigo se realizo mediante google colab por lo cual es NECESARIO ejecutarlo desde ahi para que no ocurra ni un tipo de error de compilacion.
+
+- Asegurarse de incluir las librerias necesarias.
+
+
+# Como ejecutar el codigo de c
+
+- Tener un compilador compatible con c (gcc por ejemplo)
+- Despues guardarlo como: medir_memoria.c
+- Compilamos como: gcc medir_memoria.c -o medir_memoria
+- Damos permisos y ejecutamos con lo siguiente:  chmod +x medir_memoria
+./medir_memoria
+
+
+
+
+---
 # Comparación de funciones recursivas e iterativas para el cálculo del factorial
 
 ## Propósito de la tarea
